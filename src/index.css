@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  background-color: black;
-  margin: 0;
+  /* background-color: black; */
+  margin: 10px;
   padding: 0;
   font-family: sans-serif;
   height: 100%;
@@ -19,7 +19,7 @@ body .github-fork-ribbon:before {
   background-color: #333;
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .github-fork-ribbon {
     display: none;
   }
@@ -47,4 +47,4 @@ body .github-fork-ribbon:before {
   html {
     font-size: 50px;
   }
-}
+} */
