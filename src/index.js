@@ -9,6 +9,8 @@ ReactDOM.render(
         domain="dev-t3uksfcn.us.auth0.com"
         clientId="LKNTZrSk3w3yhrKPeX3qW6pu8zkact60"
         redirectUri={window.location.origin}
+        audience="My Unique Identifier from Auth0"
+        scope="openid profile email"
     >
         <App />
     </Auth0Provider>, 
